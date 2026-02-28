@@ -1,5 +1,15 @@
 # @browserbasehq/stagehand
 
+## 3.1.1
+
+### Patch Changes
+
+- [#1759](https://github.com/browserbase/stagehand/pull/1759) [`505e8c6`](https://github.com/browserbase/stagehand/commit/505e8c6736f3706328dbc8df670c49a018058388) Thanks [@shrey150](https://github.com/shrey150)! - Add bedrock to the provider enum in model configuration schemas and regenerate OpenAPI spec.
+
+- [#1749](https://github.com/browserbase/stagehand/pull/1749) [`7390508`](https://github.com/browserbase/stagehand/commit/73905088c5ed5923d276da9cce2efd0a0a3a46eb) Thanks [@pirate](https://github.com/pirate)! - When connecting to a browser session that has zero open tabs, Stagehand now automatically creates an initial `about:blank` tab so the connection can continue.
+
+- [#1761](https://github.com/browserbase/stagehand/pull/1761) [`611f43a`](https://github.com/browserbase/stagehand/commit/611f43ac8d4c580216d55d2b217c14a9a9c11013) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - fix issue where handlePossibleNavigation was producing unnecessary error logs on clicks that trigger page close
+
 ## 3.1.0
 
 ### Minor Changes
