@@ -1,5 +1,13 @@
 # @browserbasehq/stagehand
 
+## 3.2.1
+
+### Patch Changes
+
+- [#1843](https://github.com/browserbase/stagehand/pull/1843) [`144e18e`](https://github.com/browserbase/stagehand/commit/144e18e9e0334ad3bc23aea6f4f7e181e0e6b9f0) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - apply user defined toolTimeout to all agent tools (other than wait & think tools)
+
+- [#1858](https://github.com/browserbase/stagehand/pull/1858) [`8bf5db8`](https://github.com/browserbase/stagehand/commit/8bf5db8eb8c69ce46fb8467d4216befe3a247f5b) Thanks [@monadoid](https://github.com/monadoid)! - Add explicit SSE event names for local v3 streaming and update the generated SDK contract to match.
+
 ## 3.2.0
 
 ### Minor Changes
