@@ -1,5 +1,14 @@
 # @browserbasehq/stagehand-server-v3
 
+## 3.6.2
+
+### Patch Changes
+
+- [#1858](https://github.com/browserbase/stagehand/pull/1858) [`8bf5db8`](https://github.com/browserbase/stagehand/commit/8bf5db8eb8c69ce46fb8467d4216befe3a247f5b) Thanks [@monadoid](https://github.com/monadoid)! - Add explicit SSE event names for local v3 streaming and update the generated SDK contract to match.
+
+- Updated dependencies [[`144e18e`](https://github.com/browserbase/stagehand/commit/144e18e9e0334ad3bc23aea6f4f7e181e0e6b9f0), [`8bf5db8`](https://github.com/browserbase/stagehand/commit/8bf5db8eb8c69ce46fb8467d4216befe3a247f5b)]:
+  - @browserbasehq/stagehand@3.2.1
+
 ## 3.6.1
 
 ### Patch Changes
