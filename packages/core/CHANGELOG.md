@@ -1,5 +1,23 @@
 # @browserbasehq/stagehand
 
+## 3.2.1
+
+### Patch Changes
+
+- [#1843](https://github.com/browserbase/stagehand/pull/1843) [`144e18e`](https://github.com/browserbase/stagehand/commit/144e18e9e0334ad3bc23aea6f4f7e181e0e6b9f0) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - apply user defined toolTimeout to all agent tools (other than wait & think tools)
+
+- [#1872](https://github.com/browserbase/stagehand/pull/1872) [`d3c3736`](https://github.com/browserbase/stagehand/commit/d3c3736c579a78dfee8f7ad0ed4a299bfad70c41) Thanks [@tkattkat](https://github.com/tkattkat)! - Add support for LLM provider middleware
+
+- [#1924](https://github.com/browserbase/stagehand/pull/1924) [`a1ab39e`](https://github.com/browserbase/stagehand/commit/a1ab39e7aa805ac739d7bfa39dce9a2680bb1b17) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - fix issue where stagehand could not attach to new tabs that were created manually.
+
+- [#1874](https://github.com/browserbase/stagehand/pull/1874) [`f3fe7ce`](https://github.com/browserbase/stagehand/commit/f3fe7ce59743be8b5bdd070f749af7a9c6e84f19) Thanks [@miguelg719](https://github.com/miguelg719)! - Add headers (LLM) to ModelConfig
+
+- [#1901](https://github.com/browserbase/stagehand/pull/1901) [`f5d1f1f`](https://github.com/browserbase/stagehand/commit/f5d1f1ff8072fa4acf979bc63f491c775a48991d) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - pass timeout as timeoutMs in goto()
+
+- [#1858](https://github.com/browserbase/stagehand/pull/1858) [`8bf5db8`](https://github.com/browserbase/stagehand/commit/8bf5db8eb8c69ce46fb8467d4216befe3a247f5b) Thanks [@monadoid](https://github.com/monadoid)! - Add explicit SSE event names for local v3 streaming and update the generated SDK contract to match.
+
+- [#1899](https://github.com/browserbase/stagehand/pull/1899) [`6dc2276`](https://github.com/browserbase/stagehand/commit/6dc2276144ed48456a2b3e6525c5be47fa4eda18) Thanks [@tkattkat](https://github.com/tkattkat)! - fix: include screenshot in openai cua agents first message
+
 ## 3.2.0
 
 ### Minor Changes
