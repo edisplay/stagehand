@@ -1,5 +1,11 @@
 # @browserbasehq/stagehand
 
+## 3.7.2
+
+### Patch Changes
+
+- [#2385](https://github.com/browserbase/stagehand/pull/2385) [`7566804`](https://github.com/browserbase/stagehand/commit/7566804ed4b97649706782bccdcab5d80f6fe588) Thanks [@miguelg719](https://github.com/miguelg719)! - Add `useTouch` option to actuate agent clicks as trusted touch
+
 ## 3.7.1
 
 ### Patch Changes
