@@ -3,6 +3,60 @@
 This changelog covers the public Stagehand TypeScript and Python SDKs. Entries before 4.0.0
 describe the TypeScript SDK.
 
+## TypeScript SDK 4.0.3
+
+### Patch Changes
+
+- [#2827](https://github.com/browserbase/stagehand/pull/2827) [`6555e81`](https://github.com/browserbase/stagehand/commit/6555e81e837012088eb12a39c06aed0527a2e5af) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - make browser.close() and browser.context.close() always terminate the browser regardless of keepAlive.
+
+- [#2790](https://github.com/browserbase/stagehand/pull/2790) [`1011177`](https://github.com/browserbase/stagehand/commit/1011177a3140a93f021745a3e3dc0dce9ee73225) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - fail fast on browserbase.connect() when extension is not present
+
+- [#2818](https://github.com/browserbase/stagehand/pull/2818) [`341433a`](https://github.com/browserbase/stagehand/commit/341433acac46a305ad6c2f9a0445e907675f4fb4) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - make stagehand.close() preserve the browser and allow another Stagehand instance to attach later
+
+- [#2754](https://github.com/browserbase/stagehand/pull/2754) [`a21633d`](https://github.com/browserbase/stagehand/commit/a21633d53930abc5d62b8dbd6b608995f2ccb4b1) Thanks [@monadoid](https://github.com/monadoid)! - remove the redundant image type from page screenshot protocol responses.
+
+## Python SDK 4.0.3
+
+### Patch Changes
+
+- [#2827](https://github.com/browserbase/stagehand/pull/2827) [`6555e81`](https://github.com/browserbase/stagehand/commit/6555e81e837012088eb12a39c06aed0527a2e5af) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - make browser.close() and browser.context.close() always terminate the browser regardless of keepAlive.
+
+- [#2790](https://github.com/browserbase/stagehand/pull/2790) [`1011177`](https://github.com/browserbase/stagehand/commit/1011177a3140a93f021745a3e3dc0dce9ee73225) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - fail fast on browserbase.connect() when extension is not present
+
+- [#2818](https://github.com/browserbase/stagehand/pull/2818) [`341433a`](https://github.com/browserbase/stagehand/commit/341433acac46a305ad6c2f9a0445e907675f4fb4) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - make stagehand.close() preserve the browser and allow another Stagehand instance to attach later
+
+- [#2754](https://github.com/browserbase/stagehand/pull/2754) [`a21633d`](https://github.com/browserbase/stagehand/commit/a21633d53930abc5d62b8dbd6b608995f2ccb4b1) Thanks [@monadoid](https://github.com/monadoid)! - remove the redundant image type from page screenshot protocol responses.
+
+## Extension Runtime 1.0.2
+
+### Patch Changes
+
+- [#2827](https://github.com/browserbase/stagehand/pull/2827) [`6555e81`](https://github.com/browserbase/stagehand/commit/6555e81e837012088eb12a39c06aed0527a2e5af) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - make browser.close() and browser.context.close() always terminate the browser regardless of keepAlive.
+
+- [#2818](https://github.com/browserbase/stagehand/pull/2818) [`341433a`](https://github.com/browserbase/stagehand/commit/341433acac46a305ad6c2f9a0445e907675f4fb4) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - make stagehand.close() preserve the browser and allow another Stagehand instance to attach later
+
+- [#2754](https://github.com/browserbase/stagehand/pull/2754) [`a21633d`](https://github.com/browserbase/stagehand/commit/a21633d53930abc5d62b8dbd6b608995f2ccb4b1) Thanks [@monadoid](https://github.com/monadoid)! - remove the redundant image type from page screenshot protocol responses.
+
+## Go SDK 4.0.3
+
+### Patch Changes
+
+- [#2827](https://github.com/browserbase/stagehand/pull/2827) [`6555e81`](https://github.com/browserbase/stagehand/commit/6555e81e837012088eb12a39c06aed0527a2e5af) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - make browser.close() and browser.context.close() always terminate the browser regardless of keepAlive.
+
+- [#2790](https://github.com/browserbase/stagehand/pull/2790) [`1011177`](https://github.com/browserbase/stagehand/commit/1011177a3140a93f021745a3e3dc0dce9ee73225) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - fail fast on browserbase.connect() when extension is not present
+
+- [#2818](https://github.com/browserbase/stagehand/pull/2818) [`341433a`](https://github.com/browserbase/stagehand/commit/341433acac46a305ad6c2f9a0445e907675f4fb4) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - make stagehand.close() preserve the browser and allow another Stagehand instance to attach later
+
+- [#2754](https://github.com/browserbase/stagehand/pull/2754) [`a21633d`](https://github.com/browserbase/stagehand/commit/a21633d53930abc5d62b8dbd6b608995f2ccb4b1) Thanks [@monadoid](https://github.com/monadoid)! - remove the redundant image type from page screenshot protocol responses.
+
+## Protocol 2.0.0
+
+### Major Changes
+
+- [#2827](https://github.com/browserbase/stagehand/pull/2827) [`6555e81`](https://github.com/browserbase/stagehand/commit/6555e81e837012088eb12a39c06aed0527a2e5af) Thanks [@seanmcguire12](https://github.com/seanmcguire12)! - make browser.close() and browser.context.close() always terminate the browser regardless of keepAlive.
+
+- [#2754](https://github.com/browserbase/stagehand/pull/2754) [`a21633d`](https://github.com/browserbase/stagehand/commit/a21633d53930abc5d62b8dbd6b608995f2ccb4b1) Thanks [@monadoid](https://github.com/monadoid)! - remove the redundant image type from page screenshot protocol responses.
+
 ## TypeScript SDK 4.0.2
 
 ### Patch Changes
